@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Couples Connection Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app" role="main">
+        <header class="app__header">
+            <h1 class="app__title">Couples Connection Game</h1>
+            <p class="app__tagline">Choose a deck to spin the wheel and reveal your next prompt.</p>
+        </header>
+
+        <section class="game" aria-label="Couples spinner">
+            <div class="wheel-wrapper">
+                <div class="pointer" aria-hidden="true"></div>
+                <div id="wheel" class="wheel" aria-hidden="true">
+                    <span class="wheel__cta">Ready to spin</span>
+                </div>
+            </div>
+
+            <div class="wheel-controls" role="group" aria-label="Pick a prompt deck">
+                <button id="spin-truth" class="option option--truth" type="button" data-category="truth">Truth</button>
+                <button id="spin-dare" class="option option--dare" type="button" data-category="dare">Dare</button>
+                <button id="spin-indoor" class="option option--indoor" type="button" data-category="indoor">Date Indoors</button>
+                <button id="spin-outdoor" class="option option--outdoor" type="button" data-category="outdoor">Date Outside</button>
+            </div>
+
+            <p class="legend" aria-hidden="true">
+                <span class="legend__item"><span class="legend__chip legend__chip--truth"></span> Truth</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--dare"></span> Dare</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--indoor"></span> Date Indoors</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--outdoor"></span> Date Outside</span>
+            </p>
+
+            <article id="card" class="card" aria-live="polite">
+                <h2 class="card__heading" id="card-heading">Ready to play?</h2>
+                <p class="card__prompt" id="card-prompt">Pick any deck to spin for your first card.</p>
+            </article>
+            <button id="reshuffle" class="reshuffle" type="button" aria-label="Reshuffle lists">Shuffle Prompts</button>
+        </section>
+
+        <footer class="app__footer">
+            <p>Add or edit prompts in <code>script.js</code> to make the game your own.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
