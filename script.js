@@ -9,23 +9,24 @@ const spicyTruthPrompts = [
     "What is your favorite foreplay move?",
     "Describe to me in detail one of our sexual encounters.",
     "If you had a bottle of chocolate syrup right now, what would you do with it?",
+    "What would initiating sex look like for you? Both me initiating, and you.",
     "Tell me what I wear that you find most sexy on me.",
     "Give me 2 reasons that you really like me.",
     "What is the funniest thing you think we've done during sex?",
-    "If I could kiss you anywhere right this second, where would you want it to be?",
+    "If I could kiss you anywhere right this second, other than mouth, where would you want it to be?",
     "Is there a specific type of clothing you wish I would wear in the bedroom more often?",
-    "Heels on or off during our intimate times?",
+    "Heels/Shoes on or off during our intimate times?",
     "If you could take me anywhere right now to have sex, where would it be?",
     "Do you like looking in my eyes when I'm giving you oral?",
     "Tell me about my most attractive feature.",
     "What's a secret fantasy you've never told anyone until now?",
-    "If we made a sex tape together, what scene or theme would you want to act out?",
     "What part of your body do you wish I paid more attention to?",
     "Do you enjoy when I take charge, or when I ask permission?",
     "Have you ever had a dream about us? What happened?",
     "What's the hottest thing I've ever said to you?",
+    "What's the hottest thing anyone's ever said to you?",
     "Would you rather tease or be teased?",
-    "What's something naughty you've thought about doing in public?",
+    "What's something naughty you've thought about doing in a public place (hidden or not)?",
     "How do you feel when I undress you slowly?",
     "What's your favorite scent or smell that turns you on?",
     "Have you ever fantasized about using toys together?",
@@ -124,75 +125,80 @@ const mildTruthPrompts = [
 ];
 
 const spicyDarePrompts = [
-    "Lick any part of my body that you want to. Stop after 30 seconds.",
-    "Kiss me for 20 seconds.",
-    "Take video of you giving me oral for 30 seconds. Let's watch it together before we go on.",
-    "Pick a place on my body and kiss it for a minute.",
-    "Sing me a few words from your favorite love song.",
-    "Do anything you want with me for 1 minute and then stop.",
+    "Lick any part of my body that you want to.",
+    "Kiss me for as long as you want.",
+    "Pick a place on my body and kiss it.",
     "Bend over and touch your toes while standing in front of me.",
-    "Twerk up against me for as long as you can stand it.",
-    "Put on your favorite song and let's dance together.",
+    "Back up to me and move your body against mine for as long as you can stand it.",
     "Stand in front of the mirror with me while we both do not have clothes on.",
-    "Take a picture of us kissing.",
-    "Focus on my bottom for 30 seconds. Do what you like.",
-    "Tell me how to pose and snap a picture of me.",
-    "Have sex with me for 1 minute and then stop and resume foreplay.",
+    "Tell me how what position or pose you want to see me, and I'll do that for you.",
+    "Have penetration without movement, looking into each other's eye, and then stop and resume foreplay.",
     "Run your hands all over my body one time.",
     "Use a piece of cloth or feather and lightly rub it over me.",
     "Sit in my lap anyway you like for a minute.",
-    "Pleasure me for one minute in a way you know I like.",
-    "Have sex with me in one position for 2 minutes and then switch positions.",
+    "Pleasure me in a way you want to, without asking what I want for as long as you want.",
+    "Have sex with me in one position and then switch positions.",
     "Whisper something dirty in my ear and then act it out.",
-    "Send me a voice memo describing your favorite memory of us in bed.",
+    "Describe your favorite memory of us being intimate.",
     "Remove one item of clothing slowly while making eye contact.",
-    "Pretend you're a stranger trying to seduce me for 5 minutes.",
     "Trace a heart on my body using just your lips.",
-    "Give me a slow 60-second lap dance.",
+    "Give me a slow lap dance or similar body to body seduction movement.",
     "Undress me using only your mouth (as much as possible).",
-    "Tie my hands using a soft scarf and tease me for 2 minutes.",
-    "Take a shower together and wash each other thoroughly.",
-    "Choose one body part and worship it with your hands or mouth for 2 minutes.",
+    "Tie my hands using a soft scarf and tease me.",
+    "Take a shower together and wash each other thoroughly and slowly.",
+    "Choose one body part and worship it with your hands or mouth.",
     "Play 'Simon Says' but make it sexy.",
     "Call me a pet name and tell me something naughty you'd do to me.",
     "Use an ice cube on me anywhere you choose.",
-    "Act out your favorite scene from a romance movie - but make it spicier.",
-    "Blindfold me and feed me three different treats - guess what they are.",
-    "Wear nothing but a blanket and flash me whenever I say 'please.'",
+    "Blindfold me and touch me with three random items in the room - guess what they are.",
+    "Wear nothing but a blanket and show me parts of your body slowly, randomly.",
     "Give me a strip tease with a song of your choice.",
-    "Tease me for 3 minutes without kissing me on the lips.",
+    "Tease me without kissing me on the lips.",
     "Draw a heart somewhere on my body with your tongue.",
     "Put your hands behind your back and kiss me like you mean it.",
-    "Act out a scene where you're seducing me for the first time.",
-    "Do your best slow-motion walk toward me like you're in a perfume ad.",
+    "Act like you're seducing me for the first time.",
+    "Do your best slow-motion walk toward me like you're trying to seduce me from across the room.",
     "Give me a slow, sensual neck kiss while whispering sweet things.",
-    "Create a mini photo shoot with sexy poses for me.",
     "Lick or kiss a part of my body alphabetically (A to Z).",
-    "Do 5 sexy yoga poses while I watch.",
-    "Light a candle, turn off the lights, and dance for me.",
-    "Use a massage oil and give me a 2-minute sensual massage.",
-    "Act out your favorite seduction fantasy from a movie or book.",
-    "Lick honey or whipped cream off any body part.",
-    "Put on a piece of my clothing and do something sexy in it.",
-    "Send me a sext you've never said before (while in the room).",
+    "Do sexy poses while I watch.",
+    "Light a candle, turn off the lights, and dance naked (or strip dance) for me.",
+    "Use a massage oil and give me a sensual massage for as long as you want.",
+    "Lick chocolate, honey, or whipped cream off any body part or region.",
     "Sit on my lap and grind gently while making soft sounds.",
     "Trace shapes on my back and make me guess what they are.",
-    "Read me a sexy passage from a book like it's a bedtime story.",
     "Play a quick game of hot and cold where hot equals kisses.",
     "Show me how you want to be kissed tonight.",
-    "Lick or kiss around (but not on) my lips for 30 seconds.",
+    "Lick or kiss around (but not on) my lips.",
     "Lightly spank me while telling me something naughty.",
     "Use only your breath to tease my neck, chest, and thighs.",
     "Have me sit down, then straddle me and make me blush.",
     "Wrap a blanket around both of us and get handsy under it.",
-    "Lock eyes and pleasure yourself for 30 seconds.",
+    "Lock eyes and pleasure yourself.",
     "Sit silently and undress each other using only eye contact and hands.",
     "Tell me a fantasy using just one word at a time.",
     "Write a sexy message on my skin using your finger.",
     "Roleplay as strangers in a hotel room and introduce yourself.",
     "Lightly scratch my back, chest, or thighs - slowly.",
     "Have me guess where you're going to kiss next - and then do it.",
-    "End this game by making out like teenagers for 3 full minutes."
+    "Using only your fingertips, caress any parts of me you want for as long as you want.",
+    "Tell me a story of any kind, even silly, while I touch you sensually and try to interrupt your ability to continue.",
+    "Using hands, tongue, or both... touch around my sexual parts without actually touching them.",
+    "Use a toy on me the way you want to.",
+    "Do to me whatever I tell you to until I say stop, next, or your turn.",
+    "Give me a sensual foot massage while I relax.",
+    "Tell me something you want me to do to you that I either don't or haven't done in a while.",
+    "Tell me something you want to do to me that you either don't or haven't done in a while.",
+    "Show me how you want to be touched.",
+    "Tell me something you are curious about trying with me, especially if you are afraid to say it out loud.",
+    "Heat up oil or lotion, and use it to give me a sensual massage.",
+    "Let me do whatever I want to you until you tell me to stop or change.",
+    "Tie my hands and do whatever you want to me (within reason).",
+    "Make me hot and bothered using only your words.",
+    "Tease me with your fingers, but don't let me touch you back.",
+    "Hold me close and whisper all the things you want to do to me later.",
+    "Hold me against a bed or wall and kiss me passionately for as long as you can.",
+    "Touch my lips with fruit or something edible and then kiss me.",
+
 ];
 
 const mildDarePrompts = [
@@ -365,14 +371,136 @@ const outdoorDatePrompts = [
     "Watch a sunset."
 ];
 
-const prompts = {
-    truth: [...spicyTruthPrompts, ...mildTruthPrompts],
-    dare: [...spicyDarePrompts, ...mildDarePrompts],
-    indoor: indoorDatePrompts,
-    outdoor: outdoorDatePrompts
+// Split indoor/outdoor dates into short/long by alternating items
+const indoorDateShortPrompts = indoorDatePrompts.filter((_, i) => i % 2 === 0);
+const indoorDateLongPrompts = indoorDatePrompts.filter((_, i) => i % 2 === 1);
+const outdoorDateShortPrompts = outdoorDatePrompts.filter((_, i) => i % 2 === 0);
+const outdoorDateLongPrompts = outdoorDatePrompts.filter((_, i) => i % 2 === 1);
+
+// Local scavenger hunt ideas (expanded set)
+const scavengerPrompts = [
+    // Observation & Local Landmarks
+    "Find a red door, a bench, and a street mural. Take a selfie at each.",
+    "Locate a café, a lamppost, and a mailbox. Make up a mini story about each.",
+    "Locate a local landmark and recreate a famous pose in front of it.",
+    "Find a doorway with character and pose like you live there.",
+    "Find a sign with a business established before 1970 and guess what it originally sold.",
+    "Spot a weather vane or a public clock tower.",
+    "Take a picture of a flag (not your home's) flying high.",
+    "Find a 'Little Free Library' and pose reading a book.",
+    "Find a historic plaque and read the first and last sentences aloud.",
+    "Locate a fire hydrant and take a picture of it from a high angle.",
+    "Find a street sign or marker that has been vandalized with art or stickers.",
+    "Find the entrance to a public park or garden and describe the first thing you smell.",
+    "Locate a street artist's signature (graffiti, chalk art, or sticker tag).",
+    "Find a building with at least three different types of windows (e.g., arched, square, circular).",
+    "Find a public water fountain (bonus points if it's currently running).",
+    "Find a school crossing sign and pose crossing the street dramatically.",
+    "Locate a bench dedicated to someone and imagine a memory they shared there.",
+
+    // Shapes, Numbers, & Letters
+    "Spot a star shape, a triangle, and a circle in the environment.",
+    "Capture the numbers 1, 2, and 3 on signs in order.",
+    "Find a hidden message: letters you can see that spell your names.",
+    "Find the Alphabet: locate five consecutive letters on signs or plates (e.g., A, B, C, D, E) and snap them.",
+    "Find the numbers 4, 5, and 6 on signs or buildings, each in a different color.",
+    "Find a Roman numeral and identify its value.",
+    "Spot a perfect square shape and a perfect sphere.",
+    "Find a sign that uses a fancy script or cursive font.",
+    "Find a single letter on a sign that is the same height as your hand.",
+    "Find a sign that has been misspelled or had a letter fall off.",
+    "Find the percent symbol (%) or the dollar sign ($) in the wild.",
+
+    // Nature & Textures
+    "Collect three leaf shapes together and arrange them into a heart.",
+    "Take a photo of three different textures: brick, metal, and wood.",
+    "Take photos of three different types of flowers or plants.",
+    "Find something older than both of you and guess its age (like a tree or a stone wall).",
+    "Find a seed or a pinecone and describe the tree it came from.",
+    "Take a picture of moss or lichen growing on a man-made surface.",
+    "Find a plant with thorns or spikes and one with velvety-soft leaves.",
+    "Find a puddle and take a photo of the sky reflected in it.",
+    "Find a piece of natural debris (e.g., a twig, a stone) that looks like an animal.",
+    "Find a spot where a tree or vine is growing over a fence or wall.",
+
+    // Action, Creativity, & People Watching
+    "Spot a dog, a bird, and a bicycle within 10 minutes.",
+    "Find a sign with the word 'love' or a heart symbol and recreate it.",
+    "Take a photo of something tiny, something tall, and something round.",
+    "Find a place with a reflection (window, water) and take a creative selfie.",
+    "Find the coziest corner outdoors and rate its date potential.",
+    "Locate a place that smells amazing and describe it to each other.",
+    "Pick three items that start with the same letter and make a collage photo.",
+    "Take a picture of your shadow stretched out long and another picture of your shadow shrunk small.",
+    "Find an item, sign, or natural element in a color that doesn't appear in either of your outfits and pose with it.",
+    "Find the funniest warning sign you can and mimic the warning.",
+    "Take a picture of a vehicle with a personalized license plate (obscure the number if sharing online).",
+    "Find a lost-and-found item (like a glove or hat) and guess the story of the person who lost it.",
+    "Take a picture of something that moves and something that is stationary in the same frame.",
+    "Capture a photo of two different modes of transportation (e.g., car and bus, bike and scooter).",
+    "Take a photo of a sign with an arrow and point in the opposite direction.",
+    "Find a piece of street art that makes you feel happy.",
+    "Listen in: capture three distinct, non‑verbal neighborhood sounds (e.g., bird call, distant siren, bell).",
+
+    // Colors & Personal Connection
+    "Find a spot with your shared initial and take a picture together.",
+    "Collect three items in different colors that match your outfits.",
+    "Find a sign that is only black and white and one that has at least four colors.",
+    "Find three objects that are your favorite color and line them up.",
+    "Find a door that is not brown, white, or black and take a picture of its handle.",
+    "Find a spot that reminds you of a favorite memory you share and recreate a pose from that time.",
+    "Take a picture of something that is the color of the sky at this moment.",
+    "Find a piece of chalk or marker and draw a small piece of art for someone else to find.",
+    "Find a pattern (stripes, dots, checkers) and try to match it with your clothes.",
+    "Find a sign that has the name of your street or town and high-five in front of it.",
+    "Find the cheapest item in a storefront window and the most expensive item.",
+    "Find a set of stairs and take a picture of your feet on the bottom step.",
+    "A Penny for Your Thoughts: find a fountain, statue, or monument dedicated to a person and summarize their story in one sentence.",
+    "Find a rainbow of items (red, orange, yellow, green, blue, purple) and place them side-by-side.",
+    "Find a public sign that uses the word 'Welcome' and take a picture of you both waving."
+];
+
+// Expanded prompt map by subcategory keys
+const promptsByKey = {
+    truth_mild: mildTruthPrompts,
+    truth_spicy: spicyTruthPrompts,
+    dare_mild: mildDarePrompts,
+    dare_spicy: spicyDarePrompts,
+    indoor_short: indoorDateShortPrompts,
+    indoor_long: indoorDateLongPrompts,
+    outdoor_short: outdoorDateShortPrompts,
+    outdoor_long: outdoorDateLongPrompts,
+    scavenger: scavengerPrompts
 };
 
+// Labels for UI card heading
 const categoryLabels = {
+    truth_mild: "Truth",
+    truth_spicy: "Spicy Truth",
+    dare_mild: "Dare",
+    dare_spicy: "Spicy Dare",
+    indoor_short: "Date Indoors (short)",
+    indoor_long: "Date Indoors (long)",
+    outdoor_short: "Date Outside (short)",
+    outdoor_long: "Date Outside (long)",
+    scavenger: "Scavenger Hunt"
+};
+
+// Map subcategory to wheel family for color/segment
+const familyForCategory = {
+    truth_mild: "truth",
+    truth_spicy: "truth",
+    dare_mild: "dare",
+    dare_spicy: "dare",
+    indoor_short: "indoor",
+    indoor_long: "indoor",
+    outdoor_short: "outdoor",
+    outdoor_long: "outdoor",
+    scavenger: "outdoor"
+};
+
+// Families used for wheel coloring and segments
+const wheelFamilyLabels = {
     truth: "Truth",
     dare: "Dare",
     indoor: "Date Indoors",
@@ -384,31 +512,41 @@ const card = document.getElementById("card");
 const cardHeading = document.getElementById("card-heading");
 const cardPrompt = document.getElementById("card-prompt");
 const reshuffleButton = document.getElementById("reshuffle");
-const spinTruthButton = document.getElementById("spin-truth");
-const spinDareButton = document.getElementById("spin-dare");
-const spinIndoorButton = document.getElementById("spin-indoor");
-const spinOutdoorButton = document.getElementById("spin-outdoor");
+const spinTruthMildButton = document.getElementById("spin-truth-mild");
+const spinTruthSpicyButton = document.getElementById("spin-truth-spicy");
+const spinDareMildButton = document.getElementById("spin-dare-mild");
+const spinDareSpicyButton = document.getElementById("spin-dare-spicy");
+const spinIndoorShortButton = document.getElementById("spin-indoor-short");
+const spinIndoorLongButton = document.getElementById("spin-indoor-long");
+const spinOutdoorShortButton = document.getElementById("spin-outdoor-short");
+const spinOutdoorLongButton = document.getElementById("spin-outdoor-long");
+const spinScavengerButton = document.getElementById("spin-scavenger");
 
 const spinButtons = {
-    truth: spinTruthButton,
-    dare: spinDareButton,
-    indoor: spinIndoorButton,
-    outdoor: spinOutdoorButton
+    truth_mild: spinTruthMildButton,
+    truth_spicy: spinTruthSpicyButton,
+    dare_mild: spinDareMildButton,
+    dare_spicy: spinDareSpicyButton,
+    indoor_short: spinIndoorShortButton,
+    indoor_long: spinIndoorLongButton,
+    outdoor_short: spinOutdoorShortButton,
+    outdoor_long: spinOutdoorLongButton,
+    scavenger: spinScavengerButton
 };
 
 const segments = [
-    { label: categoryLabels.truth, key: "truth" },
-    { label: categoryLabels.dare, key: "dare" },
-    { label: categoryLabels.indoor, key: "indoor" },
-    { label: categoryLabels.outdoor, key: "outdoor" },
-    { label: categoryLabels.truth, key: "truth" },
-    { label: categoryLabels.dare, key: "dare" },
-    { label: categoryLabels.indoor, key: "indoor" },
-    { label: categoryLabels.outdoor, key: "outdoor" }
+    { label: wheelFamilyLabels.truth, key: "truth" },
+    { label: wheelFamilyLabels.dare, key: "dare" },
+    { label: wheelFamilyLabels.indoor, key: "indoor" },
+    { label: wheelFamilyLabels.outdoor, key: "outdoor" },
+    { label: wheelFamilyLabels.truth, key: "truth" },
+    { label: wheelFamilyLabels.dare, key: "dare" },
+    { label: wheelFamilyLabels.indoor, key: "indoor" },
+    { label: wheelFamilyLabels.outdoor, key: "outdoor" }
 ];
 
 const segmentAngle = 360 / segments.length;
-const segmentIndicesByCategory = Object.keys(categoryLabels).reduce((acc, key) => {
+const segmentIndicesByCategory = Object.keys(wheelFamilyLabels).reduce((acc, key) => {
     acc[key] = [];
     return acc;
 }, {});
@@ -418,10 +556,10 @@ segments.forEach((segment, index) => {
 
 let displayedRotation = 0;
 let isSpinning = false;
-let pendingCategory = null;
+let pendingPromptKey = null;
 let lastTriggerButton = null;
 
-const promptPool = Object.keys(prompts).reduce((acc, key) => {
+const promptPool = Object.keys(promptsByKey).reduce((acc, key) => {
     acc[key] = [];
     return acc;
 }, {});
@@ -434,24 +572,25 @@ function shuffle(list) {
     return list;
 }
 
-function refillPool(category) {
-    promptPool[category] = shuffle([...prompts[category]]);
+function refillPool(categoryKey) {
+    promptPool[categoryKey] = shuffle([...promptsByKey[categoryKey]]);
 }
 
-function drawPrompt(category) {
-    if (!promptPool[category].length) {
-        refillPool(category);
+function drawPrompt(categoryKey) {
+    if (!promptPool[categoryKey].length) {
+        refillPool(categoryKey);
     }
-    return promptPool[category].pop();
+    return promptPool[categoryKey].pop();
 }
 
 function setCard(categoryKey, text) {
     const label = categoryLabels[categoryKey] || "Prompt";
+    const family = familyForCategory[categoryKey];
     cardHeading.textContent = label;
     cardPrompt.textContent = text;
     card.classList.remove("card--truth", "card--dare", "card--indoor", "card--outdoor");
-    if (categoryKey && card.classList) {
-        card.classList.add(`card--${categoryKey}`);
+    if (family && card.classList) {
+        card.classList.add(`card--${family}`);
     }
 }
 
@@ -461,9 +600,9 @@ function setButtonsDisabled(state) {
     });
 }
 
-function setActiveButton(category) {
+function setActiveButton(categoryKey) {
     Object.entries(spinButtons).forEach(([key, button]) => {
-        if (key === category) {
+        if (key === categoryKey) {
             button.classList.add("option--active");
         } else {
             button.classList.remove("option--active");
@@ -471,30 +610,31 @@ function setActiveButton(category) {
     });
 }
 
-function requestSpin(category) {
+function requestSpin(categoryKey) {
     if (isSpinning) {
         return;
     }
 
-    const triggerButton = spinButtons[category];
+    const triggerButton = spinButtons[categoryKey];
     lastTriggerButton = triggerButton;
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-        const prompt = drawPrompt(category);
-        setCard(category, prompt);
+        const prompt = drawPrompt(categoryKey);
+        setCard(categoryKey, prompt);
         triggerButton.focus({ preventScroll: true });
         return;
     }
 
     isSpinning = true;
-    pendingCategory = category;
+    pendingPromptKey = categoryKey;
 
-    setActiveButton(category);
+    setActiveButton(categoryKey);
     setButtonsDisabled(true);
     wheel.classList.add("spinning");
     wheel.setAttribute("aria-busy", "true");
 
-    const categoryIndices = segmentIndicesByCategory[category];
+    const family = familyForCategory[categoryKey];
+    const categoryIndices = segmentIndicesByCategory[family];
     const selectedIndex = categoryIndices[Math.floor(Math.random() * categoryIndices.length)];
     const targetNormalized = (360 - (selectedIndex * segmentAngle + segmentAngle / 2)) % 360;
 
@@ -521,12 +661,12 @@ function handleTransitionEnd(event) {
     setButtonsDisabled(false);
     setActiveButton(null);
 
-    if (pendingCategory) {
-        const prompt = drawPrompt(pendingCategory);
-        setCard(pendingCategory, prompt);
+    if (pendingPromptKey) {
+        const prompt = drawPrompt(pendingPromptKey);
+        setCard(pendingPromptKey, prompt);
     }
 
-    pendingCategory = null;
+    pendingPromptKey = null;
 
     if (lastTriggerButton) {
         lastTriggerButton.focus({ preventScroll: true });
@@ -539,16 +679,21 @@ function reshufflePrompts() {
         return;
     }
 
-    Object.keys(prompts).forEach(refillPool);
+    Object.keys(promptsByKey).forEach(refillPool);
     cardHeading.textContent = "Deck reshuffled";
     cardPrompt.textContent = "Pick any deck whenever you're ready for the next moment together.";
     card.classList.remove("card--truth", "card--dare", "card--indoor", "card--outdoor");
 }
 
-spinTruthButton.addEventListener("click", () => requestSpin("truth"));
-spinDareButton.addEventListener("click", () => requestSpin("dare"));
-spinIndoorButton.addEventListener("click", () => requestSpin("indoor"));
-spinOutdoorButton.addEventListener("click", () => requestSpin("outdoor"));
+spinTruthMildButton.addEventListener("click", () => requestSpin("truth_mild"));
+spinTruthSpicyButton.addEventListener("click", () => requestSpin("truth_spicy"));
+spinDareMildButton.addEventListener("click", () => requestSpin("dare_mild"));
+spinDareSpicyButton.addEventListener("click", () => requestSpin("dare_spicy"));
+spinIndoorShortButton.addEventListener("click", () => requestSpin("indoor_short"));
+spinIndoorLongButton.addEventListener("click", () => requestSpin("indoor_long"));
+spinOutdoorShortButton.addEventListener("click", () => requestSpin("outdoor_short"));
+spinOutdoorLongButton.addEventListener("click", () => requestSpin("outdoor_long"));
+spinScavengerButton.addEventListener("click", () => requestSpin("scavenger"));
 wheel.addEventListener("transitionend", handleTransitionEnd);
 reshuffleButton.addEventListener("click", reshufflePrompts);
 
