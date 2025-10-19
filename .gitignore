@@ -1,0 +1,21 @@
+node_modules/
+
+# Android
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+
+# iOS
+ios/DerivedData/
+ios/Pods/
+ios/*.xcworkspace/
+ios/App/App.xcodeproj/project.xcworkspace/
+ios/App/build/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
