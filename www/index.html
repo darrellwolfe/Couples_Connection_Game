@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Couples Connection Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app" role="main">
+        <header class="app__header">
+            <h1 class="app__title">Couples Connection Game</h1>
+            <p class="app__tagline">Choose a category, click/press a button to spin the wheel and reveal your next prompt.</p>
+            <p class="app__tagline">Consent is Key: If something is triggering or impractical, pass and spin again.</p>
+        </header>
+
+        <section class="game" aria-label="Couples spinner">
+            <div class="wheel-wrapper">
+                <div class="pointer" aria-hidden="true"></div>
+                <div id="wheel" class="wheel" aria-hidden="true">
+                    <span class="wheel__cta">Ready to spin</span>
+                </div>
+            </div>
+
+            <div class="wheel-controls" role="group" aria-label="Pick a prompt deck">
+                <!-- Truth/Dare split into mild and spicy -->
+                <button id="spin-truth-mild" class="option option--truth" type="button" data-category="truth_mild">Truth</button>
+                <button id="spin-truth-spicy" class="option option--truth" type="button" data-category="truth_spicy">Spicy Truth</button>
+                <button id="spin-dare-mild" class="option option--dare" type="button" data-category="dare_mild">Dare</button>
+                <button id="spin-dare-spicy" class="option option--dare" type="button" data-category="dare_spicy">Spicy Dare</button>
+
+                <!-- Date categories split into short and long -->
+                <button id="spin-indoor-short" class="option option--indoor" type="button" data-category="indoor_short">Date Indoors (short)</button>
+                <button id="spin-indoor-long" class="option option--indoor" type="button" data-category="indoor_long">Date Indoors (long)</button>
+                <button id="spin-outdoor-short" class="option option--outdoor" type="button" data-category="outdoor_short">Date Outside (short)</button>
+                <button id="spin-outdoor-long" class="option option--outdoor" type="button" data-category="outdoor_long">Date Outside (long)</button>
+
+                <!-- Fifth date category: local scavenger hunts -->
+                <button id="spin-scavenger" class="option option--outdoor" type="button" data-category="scavenger">Scavenger Hunt</button>
+            </div>
+
+            <p class="legend" aria-hidden="true">
+                <span class="legend__item"><span class="legend__chip legend__chip--truth"></span> Truth</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--truth"></span> Spicy Truth</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--dare"></span> Dare</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--dare"></span> Spicy Dare</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--indoor"></span> Date Indoors (short)</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--indoor"></span> Date Indoors (long)</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--outdoor"></span> Date Outside (short)</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--outdoor"></span> Date Outside (long)</span>
+                <span class="legend__item"><span class="legend__chip legend__chip--outdoor"></span> Scavenger Hunt</span>
+            </p>
+
+            <article id="card" class="card" aria-live="polite">
+                <h2 class="card__heading" id="card-heading">Ready to play?</h2>
+                <p class="card__prompt" id="card-prompt">Pick any deck to spin for your first card.</p>
+            </article>
+            <button id="reshuffle" class="reshuffle" type="button" aria-label="Reshuffle lists">Shuffle Prompts</button>
+        </section>
+
+        <footer class="app__footer">
+            <p>Created by Darrel G. Wolfe, Topos Creative. &copy;</p>
+            <p>Disclosure: This is a basic webhosted tool. It does not collect any data, other than that which GitHub may collect on its end.</p>
+            <p>Free to use and enjoy, I hope it brings you new avenues of connection with  your partner(s).</p>
+            <p>Version: Beta 2.0.0; Updated 10/18/2025</p>
+
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
